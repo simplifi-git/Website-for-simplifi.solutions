@@ -36,10 +36,11 @@ a{color:inherit;text-decoration:none}.container{width:min(var(--max),calc(100% -
 @media(max-width:560px){.container{width:min(100% - 28px,var(--max))}.hero{min-height:560px}.hero h1{font-size:3.35rem}.services{grid-template-columns:1fr}.service{border-right:none;border-bottom:1px solid var(--line)}.cta{align-items:flex-start;flex-direction:column}}
 .email-link {
   color: var(--blue) !important;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  text-decoration: none;
 }
 
 .email-link:hover {
-  color: #ffffff !important;
+  color: var(--blue-light) !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
