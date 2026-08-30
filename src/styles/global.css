@@ -44,3 +44,25 @@ a{color:inherit;text-decoration:none}.container{width:min(var(--max),calc(100% -
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.legal-links {
+  display: flex;
+  gap: 24px;
+}
+
+.legal-links a:hover {
+  color: var(--blue-light);
+}
+
+@media(max-width:560px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
