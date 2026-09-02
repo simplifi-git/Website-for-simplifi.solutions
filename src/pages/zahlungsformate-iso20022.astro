@@ -1,0 +1,314 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Zahlungsformate, ISO 20022 mit strukturierten Adressen';
+const description = 'Implementierung und Anpassung von pain.001-Zahlungsdateien in Microsoft Dynamics 365 Finance für Banken in ganz Europa – inklusive ISO 20022, strukturierter Adressen, bankspezifischer Anforderungen und integrierter Validierungen.';
+---
+
+<BaseLayout>
+  <Fragment slot="head">
+    <title>{title} | simplifi</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href="https://simplifi.solutions/zahlungsformate-iso20022/" />
+  </Fragment>
+
+  <section class="hero service-hero">
+    <div class="container service-container">
+      <div class="eyebrow">Microsoft Dynamics 365 Finance · D365 · ISO 20022 · pain.001</div>
+
+      <h1>
+        Zahlungsformate, ISO 20022 mit strukturierten Adressen
+      </h1>
+
+      <p class="lead">
+        Implementierung und Anpassung von <strong>pain.001-Zahlungsdateien</strong> in
+        <strong>Microsoft Dynamics 365 Finance</strong> für Banken in ganz Europa –
+        inklusive <strong>ISO 20022</strong>, <strong>strukturierten Adressen</strong>,
+        bankspezifischen Anforderungen und integrierten Validierungen.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:contact@simplifi.solutions">
+          Kontakt aufnehmen
+        </a>
+
+        <a class="btn btn-secondary" href="/insights/structured-addresses/">
+          Insight lesen
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container service-container">
+
+      <div class="section-head">
+        <div class="eyebrow">Unsere Leistung</div>
+
+        <h2>
+          pain.001 und ISO 20022 in Microsoft Dynamics 365 Finance
+        </h2>
+
+        <p>
+          Wir unterstützen Unternehmen bei der Einführung, Anpassung und Optimierung
+          von ISO-20022-Zahlungsformaten in Microsoft Dynamics 365 Finance.
+          Dabei betrachten wir nicht nur das XML-Format, sondern den vollständigen
+          Zahlungsprozess von den Stammdaten bis zur erfolgreichen Verarbeitung durch
+          die jeweilige Bank.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article>
+          <h3>pain.001.001.09</h3>
+          <p>
+            Umsetzung und Anpassung aktueller pain.001-Zahlungsformate in D365 Finance,
+            insbesondere auf Basis der ISO-20022-Version 2019.
+          </p>
+        </article>
+
+        <article>
+          <h3>Strukturierte Adressen</h3>
+          <p>
+            Prüfung und Umsetzung der erforderlichen strukturierten Adressinformationen
+            in Zahlungsdateien und D365-Finance-Stammdaten.
+          </p>
+        </article>
+
+        <article>
+          <h3>Bankspezifische Anforderungen</h3>
+          <p>
+            ISO 20022 ist ein Standard, wird in der Praxis aber von Banken unterschiedlich
+            validiert. Wir passen die Electronic-Reporting-Konfiguration an die konkrete
+            Bank an.
+          </p>
+        </article>
+
+        <article>
+          <h3>Europaweite Umsetzung</h3>
+          <p>
+            Unterstützung für Zahlungsformate und Bankverbindungen in ganz Europa,
+            inklusive SEPA sowie nationaler und bankspezifischer Anforderungen.
+          </p>
+        </article>
+
+        <article>
+          <h3>Electronic Reporting</h3>
+          <p>
+            Analyse, Erweiterung und Pflege von Electronic-Reporting-Konfigurationen
+            für Microsoft Dynamics 365 Finance.
+          </p>
+        </article>
+
+        <article>
+          <h3>Integrierte Validierungen</h3>
+          <p>
+            Fehlende Informationen werden möglichst bereits vor der XML-Erstellung
+            identifiziert, damit Fehler nicht erst im E-Banking oder Bankprotokoll
+            sichtbar werden.
+          </p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container service-container">
+
+      <div class="section-head">
+        <div class="eyebrow">Mehr Prozesssicherheit</div>
+
+        <h2>
+          Fehler erkennen, bevor die Zahlungsdatei an die Bank geht
+        </h2>
+
+        <p>
+          Ein wesentlicher Bestandteil unserer Implementierung sind zusätzliche
+          Validierungen direkt in Microsoft Dynamics 365 Finance.
+        </p>
+      </div>
+
+      <div class="process-box">
+        <div>
+          <strong>Ohne vorgelagerte Validierung</strong>
+          <p>D365 Finance → XML erzeugen → E-Banking / Bank → Fehler → Korrektur → Vorgang wiederholen</p>
+        </div>
+
+        <div>
+          <strong>Mit integrierter D365-Validierung</strong>
+          <p>Zahlung vorbereiten → Validierung → Fehler korrigieren → pain.001 erzeugen → Bank</p>
+        </div>
+      </div>
+
+      <p>
+        Je nach Zahlungsart, Land, Währung und Bank können beispielsweise strukturierte
+        Adressinformationen, Ort, Postleitzahl, Land, IBAN, Kontonummer, BIC/SWIFT,
+        Creditor Agent und weitere Pflichtinformationen geprüft werden.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container service-container">
+
+      <div class="section-head">
+        <div class="eyebrow">Unser Vorgehen</div>
+
+        <h2>
+          Von der Analyse bis zur erfolgreichen Bankvalidierung
+        </h2>
+      </div>
+
+      <div class="steps">
+        <div><span>01</span><div><h3>Analyse</h3><p>Bestehende pain.001-Versionen, Zahlungsmethoden, Banken, ER-Konfigurationen und Stammdaten.</p></div></div>
+        <div><span>02</span><div><h3>Zielformat</h3><p>Definition der erforderlichen ISO-20022- und pain.001-Struktur inklusive strukturierter Adressen.</p></div></div>
+        <div><span>03</span><div><h3>Implementierung</h3><p>Anpassung oder Erweiterung der Electronic-Reporting-Konfiguration in D365 Finance.</p></div></div>
+        <div><span>04</span><div><h3>Validierungen</h3><p>Einbau zusätzlicher Prüfungen vor der XML-Erstellung.</p></div></div>
+        <div><span>05</span><div><h3>Banktest</h3><p>Erstellung und Validierung repräsentativer pain.001-Zahlungsdateien mit der jeweiligen Bank.</p></div></div>
+        <div><span>06</span><div><h3>Produktivsetzung</h3><p>Kontrollierte Einführung des neuen Zahlungsformats in Microsoft Dynamics 365 Finance.</p></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container cta service-cta">
+      <div>
+        <h3>
+          Unterstützung bei pain.001, ISO 20022 und strukturierten Adressen?
+        </h3>
+
+        <p>
+          Wir unterstützen Sie bei der Analyse, Implementierung und Bankvalidierung
+          Ihrer Zahlungsformate in Microsoft Dynamics 365 Finance.
+        </p>
+      </div>
+
+      <a class="btn btn-primary" href="mailto:contact@simplifi.solutions">
+        Kontakt aufnehmen
+      </a>
+    </div>
+  </section>
+
+  <style>
+    .service-container {
+      max-width: 1120px;
+    }
+
+    .service-hero {
+      padding: 90px 0 75px;
+      background: linear-gradient(180deg, #f4f8fd 0%, #ffffff 100%);
+    }
+
+    .service-hero h1 {
+      max-width: 900px;
+      margin: 14px 0 22px;
+      font-size: clamp(2.4rem, 5vw, 4.8rem);
+      line-height: 1.03;
+      letter-spacing: -0.045em;
+      color: #071a33;
+    }
+
+    .lead {
+      max-width: 850px;
+      font-size: 1.2rem;
+      line-height: 1.75;
+      color: #53657b;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 36px;
+    }
+
+    .feature-grid article {
+      padding: 26px;
+      border: 1px solid #dfe8f2;
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .feature-grid h3 {
+      margin: 0 0 10px;
+      color: #071a33;
+    }
+
+    .feature-grid p,
+    .process-box p,
+    .steps p {
+      color: #53657b;
+      line-height: 1.7;
+    }
+
+    .process-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin: 34px 0 24px;
+    }
+
+    .process-box > div {
+      padding: 26px;
+      border-radius: 18px;
+      border: 1px solid #dfe8f2;
+      background: #fff;
+    }
+
+    .process-box strong {
+      color: #071a33;
+    }
+
+    .steps {
+      display: grid;
+      gap: 0;
+      margin-top: 32px;
+    }
+
+    .steps > div {
+      display: grid;
+      grid-template-columns: 70px 1fr;
+      gap: 18px;
+      padding: 22px 0;
+      border-bottom: 1px solid #e7edf5;
+    }
+
+    .steps span {
+      color: #0b67e3;
+      font-weight: 800;
+      font-size: 1.1rem;
+    }
+
+    .steps h3 {
+      margin: 0 0 6px;
+      color: #071a33;
+    }
+
+    .steps p {
+      margin: 0;
+    }
+
+    .service-cta {
+      gap: 36px;
+    }
+
+    @media (max-width: 900px) {
+      .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .process-box {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .feature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</BaseLayout>
